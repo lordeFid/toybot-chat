@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #DFEFF4;
+}
+
+.input {
+  padding:40px;
+}
+
+.form-control {
+  background-color: #DFEFF4;
+  border-color:#56CCF2;
+  border-right: none;
+  border-radius: 5px;
+}
+
+.svg {
+  border: 1px solid #56CCF2;
+  border-left: none;
+  padding: 0 0.4rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.send {
+  color: red;
+}
+
+.footer {
+  text-align: center;
+  color: #56CCF2;
+  padding: 20px;
+}
+
+.footer-link {
+  display: inline;
+  margin: 30px;
+}
