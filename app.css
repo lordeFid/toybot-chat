@@ -5,6 +5,75 @@ body {
   background-color: #DFEFF4;
 }
 
+
+/********header style*****************/
+.chatbot-container {
+  background-color: #d6efc7;
+  width: 500px;
+  height: 600px;
+  margin: 30px auto;
+  box-shadow: none;
+  }
+  .title {
+  padding: 15px 10px;
+  font-size: 2.2rem;
+  font-family: sans-serif;
+  
+  }
+  .chatbot-header{
+  
+  background-color: #9cf196;
+  height: 70px;
+  }
+  .chatbot-body {
+    height: 430px;
+  
+  
+  }
+  .engine {
+  width: 250px;
+  height: auto;
+  margin: 50px 0 0 20px;
+  background: #d291bc;
+  border-radius: 10px;
+  }
+.textchat {
+  margin: 20px 10px;
+  padding: 15px 10px;
+  
+  }
+  .user {
+    width: 250px;
+    height: auto;
+    margin: 50px 50px 50px 20px;
+    position: relative;
+    top: 200px;
+    left: 40%;
+    background-color: #ffcac2;
+    border-radius: 10px;
+  }
+
+  textarea {
+    width: 90%;
+  margin-left: 25px;
+  border-radius: 15%;
+  box-sizing: content-box;
+  border-color: #9cf196;
+  border-width: medium;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  background-color: #f4f6ff;
+  padding: 5px 5px;
+  }
+  .submit {
+  position: relative;
+  left: 440px;
+  bottom: 32px;
+  
+  }
+  
+
 .input {
   padding:40px;
 }
