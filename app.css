@@ -2,33 +2,41 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #DFEFF4;
+  /* background-color: #DFEFF4; */
 }
 
 
 /********header style*****************/
 .chatbot-container {
   background-color: #d6efc7;
-  width: 500px;
-  height: 600px;
+  width: 550px;
+  height: auto;
   margin: 30px auto;
   box-shadow: none;
   }
   .title {
   padding: 15px 10px;
   font-size: 2.2rem;
-  font-family: sans-serif;
+  font-family: cursive;
+  font-weight: bold
   
   }
   .chatbot-header{
   
   background-color: #9cf196;
-  height: 70px;
+  height: auto;
+
+  }
+  .aboutBot { 
+   
+  }
+  span {
+    margin: 0 10px 10px 15px;
+    margin: 0 15px 15px 15px;
+    font-family: cursive; 
   }
   .chatbot-body {
     height: 430px;
-  
-  
   }
   .engine {
   width: 250px;
@@ -47,7 +55,7 @@ body {
     height: auto;
     margin: 50px 50px 50px 20px;
     position: relative;
-    top: 200px;
+    top: 300px;
     left: 40%;
     background-color: #ffcac2;
     border-radius: 10px;
@@ -91,6 +99,7 @@ body {
   padding: 0 0.4rem;
   cursor: pointer;
   border-radius: 5px;
+  background-color: #DFEFF4;
 }
 
 .send {
@@ -101,9 +110,16 @@ body {
   text-align: center;
   color: #56CCF2;
   padding: 20px;
+  position: relative;
+  
 }
 
 .footer-link {
   display: inline;
   margin: 30px;
+}
+.input-group {
+position: relative;
+top: 100px;
+
 }
